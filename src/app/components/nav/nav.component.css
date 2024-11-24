@@ -1,0 +1,51 @@
+.navegacao {
+    background: url('https://st2.depositphotos.com/10614052/46845/v/600/depositphotos_468451136-stock-video-silhouette-hacker-laptop-dark-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.texto-inicial {
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.letra-dev {
+    color: #D2000D;
+}
+
+.letra-leandro {
+    color: #D2000D;
+}
+
+.links {
+    font-size: 1.5em;
+}
+
+a {
+    color: white;
+}
+
+.titulos {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 3.2em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #D2000D;
+}
+
+i {
+    font-size: 2em;
+}
+
+i:hover {
+    cursor: pointer;
+    color: #D2000D;
+}
