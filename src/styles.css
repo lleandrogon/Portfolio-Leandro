@@ -3,3 +3,7 @@
 * {
     color: white;
 }
+
+.sem-marcadores {
+    list-style-type: none;
+}

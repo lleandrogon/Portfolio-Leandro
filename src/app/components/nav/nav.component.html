@@ -1,17 +1,34 @@
-<div class="navegacao container-fluid px-5">
-    <header class="row py-2">
+<div class="navegacao container-fluid px-md-5 pt-3">
+
+    <header class="row">
         <div class="texto-inicial col-6">
-            <a class="link-underline link-underline-opacity-0" href=""><span class="letra-dev">D</span>ev <span
-                    class="letra-leandro">L</span>eandro</a>
+            <a class="link-underline link-underline-opacity-0" href="https://github.com/lleandrogon"
+                target="_blank"><span class="letra-dev">D</span>ev <span class="letra-leandro">L</span>eandro</a>
         </div>
-        <div class="links col-6 d-flex justify-content-end mt-1">
-            <a class="link-underline link-underline-opacity-0 mx-3" href="">Sobre Mim</a>
-            <a class="link-underline link-underline-opacity-0 mx-3" href="">Skills</a>
-            <a class="link-underline link-underline-opacity-0 mx-3" href="">Projetos</a>
-            <a class="link-underline link-underline-opacity-0 mx-3" href="">Contato</a>
+
+        <div class="col-6 d-flex justify-content-end align-items-center d-md-none">
+            <i (click)="verMenu()" class="fa-solid fa-bars"></i>
         </div>
+
+        <div *ngIf="visivel" class="links text-center d-md-none">
+            <ul>
+                <li class="sem-marcadores py-3"><a href="" class="links">Sobre Mim</a></li>
+                <li class="sem-marcadores py-3"><a href="" class="links">Skills</a></li>
+                <li class="sem-marcadores py-3"><a href="" class="links">Projetos</a></li>
+                <li class="sem-marcadores py-3"><a href="" class="links">Contatos</a></li>
+            </ul>
+        </div>
+
+        <div class="links col-md-6 d-none d-md-flex justify-content-end mt-1">
+            <li class="sem-marcadores px-2"><a href="" class="links">Sobre Mim</a></li>
+            <li class="sem-marcadores px-2"><a href="" class="links">Skills</a></li>
+            <li class="sem-marcadores px-2"><a href="" class="links">Projetos</a></li>
+            <li class="sem-marcadores px-2"><a href="" class="links">Contatos</a></li>
+        </div>
+
     </header>
-    <div class="titulos">
+
+    <div class="titulos ms-2">
         <h1>Leandro Gonçalves</h1>
         <h2>Desenvolvedor de Software</h2>
         <div class="redes-sociais pt-2">
@@ -20,4 +37,13 @@
             <i class="fab fa-whatsapp ps-2"></i>
         </div>
     </div>
+
+    <div class="d-flex mt-3 ms-1">
+        <a href="https://wa.me/5582988094715?text=Olá%20gostaria%20de%20mais%20informações!" target="_blank"
+            class="botao-vermelho btn px-3 py-1 me-1">
+            Fale Comigo!
+        </a>
+        <button class="botao-vermelho btn px-3 py-1 mx-2">Baixar CV</button>
+    </div>
+
 </div>

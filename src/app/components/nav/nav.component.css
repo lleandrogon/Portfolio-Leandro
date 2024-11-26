@@ -1,3 +1,7 @@
+.container-fluid {
+    padding-bottom: 100px;
+}
+
 .navegacao {
     background: url('https://st2.depositphotos.com/10614052/46845/v/600/depositphotos_468451136-stock-video-silhouette-hacker-laptop-dark-background.jpg');
     background-size: cover;
@@ -6,9 +10,9 @@
 }
 
 .texto-inicial {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.8em;
     font-weight: 700;
-    letter-spacing: 2px;
 }
 
 .letra-dev {
@@ -20,7 +24,12 @@
 }
 
 .links {
-    font-size: 1.5em;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li .links:hover {
+    color: #D2000D;
 }
 
 a {
@@ -49,3 +58,34 @@ i:hover {
     cursor: pointer;
     color: #D2000D;
 }
+
+.botao-vermelho {
+    background-color: #D2000D;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.botao-vermelho:hover {
+    background-color: #ffffff;
+    color: #D2000D;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease, transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-bottom: 40px;
+    }
+
+    .texto-inicial {
+        font-size: 1.4em;
+    }
+
+    .links {
+        font-size: 1.2em;
+    }
+}
+
+/* */
