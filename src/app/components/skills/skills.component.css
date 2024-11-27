@@ -1,0 +1,44 @@
+.skills {
+    background: url('https://media.istockphoto.com/id/1341567954/photo/abstract-red-and-black-are-light-pattern-with-the-gradient-is-the-with-floor-wall-metal.jpg?s=612x612&w=0&k=20&c=yKgMKKc62eCV_aw1EX4imM9qQ1HJRopne89mwYJw3nQ=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px;
+}
+
+.skills-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #D2000D;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.for-container {
+    width: 200px;
+}
+
+.icon-container {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.icon-container:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+i {
+    font-size: 1.1em;
+}
+
+.cor-nome {
+    color: #ff0000;
+    font-weight: 600;
+}

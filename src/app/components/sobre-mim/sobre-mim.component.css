@@ -1,0 +1,66 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre-mim {
+    background: linear-gradient(130deg, #000000, #252525);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #D2000D;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.apresentacao {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.texto-apresentacao {
+    margin-bottom: 30px;
+    color: #D9D9D9;
+}
+
+.nome {
+    color: #D80204;
+}
+
+.botao-vermelho {
+    background-color: #D80204;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.botao-vermelho:hover {
+    background-color: #FFFFFF;
+    color: #D80204;
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 8px 20px rgba(210, 0, 13, 0.7);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .apresentacao {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .botao-vermelho {
+        width: 80%;
+        padding: 10px 20px;
+    }
+}

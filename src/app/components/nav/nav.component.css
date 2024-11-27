@@ -3,7 +3,7 @@
 }
 
 .navegacao {
-    background: url('https://st2.depositphotos.com/10614052/46845/v/600/depositphotos_468451136-stock-video-silhouette-hacker-laptop-dark-background.jpg');
+    background: url('https://wallpaper.dog/large/17104458.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,11 +16,11 @@
 }
 
 .letra-dev {
-    color: #D2000D;
+    color: #D80204;
 }
 
 .letra-leandro {
-    color: #D2000D;
+    color: #D80204;
 }
 
 .links {
@@ -29,11 +29,12 @@
 }
 
 li .links:hover {
-    color: #D2000D;
+    color: #D80204;
 }
 
 a {
     color: white;
+    font-weight: bold;
 }
 
 .titulos {
@@ -43,11 +44,11 @@ a {
 h1 {
     font-size: 3.2em;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 h2 {
-    color: #D2000D;
+    color: #D80204;
 }
 
 i {
@@ -56,21 +57,21 @@ i {
 
 i:hover {
     cursor: pointer;
-    color: #D2000D;
+    color: #D80204;
 }
 
 .botao-vermelho {
-    background-color: #D2000D;
+    background-color: #D80204;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 20px;
 }
 
 .botao-vermelho:hover {
     background-color: #ffffff;
-    color: #D2000D;
+    color: #D80204;
     transform: scale(1.1);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(210, 0, 13, 0.7);
     transition: 0.3s ease, transform 0.3s ease;
 }
 
@@ -87,5 +88,3 @@ i:hover {
         font-size: 1.2em;
     }
 }
-
-/* */
