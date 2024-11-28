@@ -1,0 +1,95 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.projetos {
+    background: linear-gradient(130deg, #000000, #252525);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #D2000D;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    background: black;
+    color: white;
+    border: 3px solid #D2000D;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 12px 25px rgba(210, 0, 13, 0.8);
+}
+
+.card-img-top {
+    width: 150px;
+}
+
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #D2000D;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 1.7em;
+}
+
+.card-text {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.tecnologias-container {
+    height: 100px;
+}
+
+.icon-container {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 2px 4px;
+    margin: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.icon-container:hover {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 15px rgba(255, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+.tecnologia {
+    color: #ff0000;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.botao-vermelho {
+    background-color: #D80204;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+
+.botao-vermelho:hover {
+    background-color: #ffffff;
+    color: #D80204;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(210, 0, 13, 0.7);
+    transition: 0.3s ease, transform 0.3s ease;
+}

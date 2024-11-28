@@ -11,7 +11,7 @@ import { Tecnologia } from '../../models/tecnologia';
 export class SkillsComponent {
   tecnologias: Tecnologia[] = [
     {
-      icon: "devicon-angularjs-plain fs-5",
+      icon: "devicon-angularjs-plain fs-3",
       nome: "Angular"
     },
     {
@@ -23,23 +23,27 @@ export class SkillsComponent {
       nome: "JavaScript"
     },
     {
-      icon: "devicon-php-plain fs-3",
+      icon: "devicon-jquery-plain",
+      nome: "JQuery"
+    },
+    {
+      icon: "devicon-php-plain fs-1",
       nome: "PHP"
     },
     {
-      icon: "devicon-bootstrap-plain fs-4",
+      icon: "devicon-bootstrap-plain fs-2",
       nome: "Bootstrap"
     },
     {
-      icon: "devicon-css3-plain fs-6",
+      icon: "devicon-css3-plain fs-4",
       nome: "CSS"
     },
     {
-      icon: "devicon-html5-plain fs-6",
-      nome: "HTML5"
+      icon: "devicon-html5-plain fs-4",
+      nome: "HTML"
     },
     {
-      icon: "devicon-git-plain fs-5",
+      icon: "devicon-git-plain fs-3",
       nome: "Git"
     },
   ]

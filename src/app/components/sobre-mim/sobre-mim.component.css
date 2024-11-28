@@ -4,12 +4,11 @@
 
 .sobre-mim {
     background: linear-gradient(130deg, #000000, #252525);
-    background-size: cover;
-    background-position: center;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 .titulo {
+    font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -24,6 +23,7 @@
 }
 
 .texto-apresentacao {
+    font-size: 1.5em;
     margin-bottom: 30px;
     color: #D9D9D9;
 }
@@ -39,6 +39,7 @@
     border-radius: 30px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
 }
 
 .botao-vermelho:hover {
@@ -57,6 +58,10 @@
     .apresentacao {
         font-size: 1rem;
         text-align: center;
+    }
+
+    .texto-apresentacao {
+        font-size: 1.4em; 
     }
 
     .botao-vermelho {
