@@ -1,0 +1,35 @@
+.rodape {
+    background: linear-gradient(130deg, #000000, #252525);
+    padding: 0;
+}
+
+.copyright {
+    background-color: black;
+}
+
+.copyright {
+    background-color: black;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+}
+
+.copyright a {
+    color: white;
+}
+
+.copyright a span:hover {
+    color: #D80204;
+}
+
+.copyright span {
+    font-weight: 600;
+}
+
+i {
+    font-size: 50px
+}
+
+i:hover {
+    color: #D80204;
+    cursor: pointer;
+}

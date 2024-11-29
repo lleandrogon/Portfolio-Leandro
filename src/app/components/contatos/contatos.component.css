@@ -1,0 +1,87 @@
+.contatos {
+    background: url('https://media.istockphoto.com/id/1341567954/photo/abstract-red-and-black-are-light-pattern-with-the-gradient-is-the-with-floor-wall-metal.jpg?s=612x612&w=0&k=20&c=yKgMKKc62eCV_aw1EX4imM9qQ1HJRopne89mwYJw3nQ=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px;
+}
+
+.contatos-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #D2000D;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.oferecer {
+    margin-top: 150px;
+}
+
+.apelacao {
+    font-size: 1.4em;
+}
+
+.formulario-contato {
+    margin: 150px 0 0 0;
+    padding: 0 10%;
+}
+
+label {
+    font-size: 1.2em;
+    margin-left: 7px;
+    color: rgba(255, 255, 255, 0.700);
+}
+
+.form-control {
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 3px solid #D2000D;
+    font-size: 1.2em;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.alerta {
+    color: yellow;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: center;
+}
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.400);
+}
+
+.botao-vermelho {
+    background-color: #D80204;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    padding: 10px 30px;
+    letter-spacing: 1.2px;
+}
+
+.botao-vermelho:hover {
+    background-color: #FFFFFF;
+    color: #D80204;
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 8px 20px rgba(210, 0, 13, 0.7);
+}
+
+@media (max-width: 768px) {
+    .formulario-contato {
+        padding: 0;
+    }    
+}

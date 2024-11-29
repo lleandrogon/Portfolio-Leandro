@@ -1,0 +1,34 @@
+<section class="contatos container-fluid text-center">
+    <h3 class="contatos-title">Contate-me!</h3>
+    <h5 class="apelacao mt-2">Entre em contato comigo, estou aberto a novos projetos e oportunidades.</h5>
+    <form action="" [formGroup]="contatoForm" class="formulario-contato">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6 text-start">
+                <label for="inome" class="form-label">Nome</label>
+                <input type="text" id="inome" formControlName="nome" class="form-control" autocomplete="off">
+                @if (contatoForm.controls['nome'].touched && contatoForm.controls['nome'].errors?.['required']) {
+                    <p class="alerta mt-3">O campo nome é obrigatório!</p>
+                } @else if (contatoForm.controls['nome'].touched && contatoForm.controls['nome'].errors?.['minlength']) {
+                    <p class="alerta text-center mt-3">O campo nome deve ter no mínimo 3 caracteres!</p>
+                }
+            </div>
+            <div class="col-md-6 text-start mt-5 mt-md-0">
+                <label for="iemail" class="form-label">Email</label>
+                <input type="text" id="iemail" formControlName="email" class="form-control" autocomplete="off">
+                @if (contatoForm.controls['email'].touched && contatoForm.controls['email'].errors?.['required']) {
+                    <p class="alerta mt-3">O campo email é obrigatório!</p>
+                } @else if (contatoForm.controls['email'].touched && contatoForm.controls['email'].errors?.['email']) {
+                    <p class="alerta mt-3">Email inválido!</p>
+                }
+            </div>
+        </div>
+        <div class="mt-5 text-start">
+            <label for="imensagem" class="form-label">Mensagem</label>
+            <textarea name="" id="imensagem" formControlName="mensagem" class="form-control" placeholder="Me envie uma mensagem descrevendo o que você precisa. Pode ser um projeto que deseja desenvolver, uma dúvida técnica ou até uma ideia que gostaria de discutir. Estou sempre disposto a ajudar e aberto a novas oportunidades." autocomplete="off"></textarea>
+            @if (contatoForm.controls['mensagem'].touched && contatoForm.controls['mensagem'].errors?.['required']) {
+                <p class="alerta mt-3">O campo mensagem não pode estar vazio!</p>
+            }
+        </div>
+        <button (click)="enviarWhatsapp()" class="botao-vermelho btn mt-5" [disabled]="!contatoForm.valid">Enviar</button>
+    </form>
+</section>
