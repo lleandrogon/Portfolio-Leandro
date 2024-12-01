@@ -2,7 +2,7 @@
     <h3 class="titulo text-center">Projetos</h3>
     <div class="row d-flex justify-content-center mt-5">
         @for (item of projetos; track item.nome) {
-        <div class="col-3 card mx-3 my-2" style="width: 24rem;">
+        <div class="col-4 card mx-3 my-2" style="width: 24rem;">
             <img [src]='item.logo' class="card-img-top mx-auto" alt="Logo do Projeto">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">{{item.nome}}</h5>

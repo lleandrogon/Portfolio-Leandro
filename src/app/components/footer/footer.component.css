@@ -1,6 +1,23 @@
 .rodape {
     background: linear-gradient(130deg, #000000, #252525);
-    padding: 0;
+}
+
+.redes-sociais {
+    font-size: 50px;
+}
+
+.redes-sociais:hover {
+    color: #D80204;
+    cursor: pointer;
+}
+
+.contato {
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.identificacao {
+    font-weight: bold;
 }
 
 .copyright {
@@ -23,13 +40,4 @@
 
 .copyright span {
     font-weight: 600;
-}
-
-i {
-    font-size: 50px
-}
-
-i:hover {
-    color: #D80204;
-    cursor: pointer;
 }

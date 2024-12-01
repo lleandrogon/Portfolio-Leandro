@@ -12,18 +12,18 @@
 
         <div *ngIf="visivel" class="links text-center d-md-none mt-4">
             <ul>
-                <li class="sem-marcadores py-3"><a href="" class="links">Sobre Mim</a></li>
-                <li class="sem-marcadores py-3"><a href="" class="links">Skills</a></li>
-                <li class="sem-marcadores py-3"><a href="" class="links">Projetos</a></li>
-                <li class="sem-marcadores py-3"><a href="" class="links">Contatos</a></li>
+                <li class="sem-marcadores py-3"><a href="#sobre-mim" class="links">Sobre Mim</a></li>
+                <li class="sem-marcadores py-3"><a href="#skills" class="links">Skills</a></li>
+                <li class="sem-marcadores py-3"><a href="#projetos" class="links">Projetos</a></li>
+                <li class="sem-marcadores py-3"><a href="#contatos" class="links">Contatos</a></li>
             </ul>
         </div>
 
         <div class="links col-md-6 d-none d-md-flex justify-content-end mt-1">
-            <li class="sem-marcadores px-3"><a href="" class="links">Sobre Mim</a></li>
-            <li class="sem-marcadores px-3"><a href="" class="links">Skills</a></li>
-            <li class="sem-marcadores px-3"><a href="" class="links">Projetos</a></li>
-            <li class="sem-marcadores px-3"><a href="" class="links">Contatos</a></li>
+            <li class="sem-marcadores px-3"><a href="#sobre-mim" class="links">Sobre Mim</a></li>
+            <li class="sem-marcadores px-3"><a href="#skills" class="links">Skills</a></li>
+            <li class="sem-marcadores px-3"><a href="#projetos" class="links">Projetos</a></li>
+            <li class="sem-marcadores px-3"><a href="#contatos" class="links">Contatos</a></li>
         </div>
 
     </header>
@@ -32,9 +32,9 @@
         <h1 class="ms-0">Leandro Gonçalves</h1>
         <h2>Desenvolvedor de Software</h2>
         <div class="redes-sociais pt-2">
-            <i class="fab fa-linkedin pe-2"></i>
-            <i class="fab fa-github px-3"></i>
-            <i class="fab fa-whatsapp ps-2"></i>
+            @for (item of globalService.redesSociais; track item.nome) {
+              <a [href]=item.link><i class="{{item.icon}}"></i></a>
+            }
         </div>
     </div>
 
@@ -47,3 +47,4 @@
     </div>
 
 </div>
+

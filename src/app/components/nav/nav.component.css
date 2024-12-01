@@ -54,6 +54,8 @@ h2 {
 
 i {
     font-size: 3em;
+    margin-right: 25px;
+    color: white;
 }
 
 i:hover {
