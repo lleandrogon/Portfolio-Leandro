@@ -2,7 +2,7 @@
 
     <header class="row">
         <div class="texto-inicial col-6">
-            <a class="link-underline link-underline-opacity-0" href="https://github.com/lleandrogon"
+            <a class="meu-nome animate__animated animate__flash animate__delay-1s link-underline link-underline-opacity-0" href="https://github.com/lleandrogon"
                 target="_blank"><span class="letra-dev">D</span>ev <span class="letra-leandro">L</span>eandro</a>
         </div>
 
@@ -29,21 +29,21 @@
     </header>
 
     <div class="titulos ms-1">
-        <h1 class="ms-0">Leandro Gonçalves</h1>
-        <h2>Desenvolvedor de Software</h2>
-        <div class="redes-sociais pt-2">
+        <h1 class="animate__animated animate__fadeInLeft ms-0">Leandro Gonçalves</h1>
+        <h2 class="animate__animated animate__fadeInLeft animate__delay-1s">Desenvolvedor de Software</h2>
+        <div class="redes-sociais animate__animated animate__fadeInLeft animate__delay-1s pt-2">
             @for (item of globalService.redesSociais; track item.nome) {
-              <a [href]=item.link><i class="{{item.icon}}"></i></a>
+              <a [href]=item.link target="_blank"><i class="{{item.icon}}"></i></a>
             }
         </div>
     </div>
 
-    <div class="d-flex mt-4">
+    <div class="d-flex mt-4 animate__animated animate__fadeInLeft animate__delay-2s">
         <a href="https://wa.me/5582988094715?text=Olá%20gostaria%20de%20mais%20informações!" target="_blank"
             class="botao-vermelho btn px-3 py-2 me-1">
             Fale Comigo!
         </a>
-        <button class="botao-vermelho btn px-3 py-2 mx-3">Baixar CV</button>
+        <a href="../../../assets/Curriculo-Leandro-TI.pdf" download="Curriculo-Leandro-TI.pdf" class="botao-vermelho btn px-3 py-2 mx-3">Baixar CV</a>
     </div>
 
 </div>

@@ -1,7 +1,8 @@
 .contatos {
-    background: url('https://media.istockphoto.com/id/1341567954/photo/abstract-red-and-black-are-light-pattern-with-the-gradient-is-the-with-floor-wall-metal.jpg?s=612x612&w=0&k=20&c=yKgMKKc62eCV_aw1EX4imM9qQ1HJRopne89mwYJw3nQ=');
+    /* background: url('https://media.istockphoto.com/id/1341567954/photo/abstract-red-and-black-are-light-pattern-with-the-gradient-is-the-with-floor-wall-metal.jpg?s=612x612&w=0&k=20&c=yKgMKKc62eCV_aw1EX4imM9qQ1HJRopne89mwYJw3nQ='); */
+    background: url('https://wallpapercrafter.com/desktop1/542471-line-dark-white-light-obliquely-abstract-backgrounds.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     padding: 70px;
 }
@@ -69,7 +70,8 @@ textarea::placeholder {
     transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     font-size: 1.5em;
-    padding: 10px 30px;
+    padding: 5px 20px;
+    margin: 0 20px;
     letter-spacing: 1.2px;
 }
 

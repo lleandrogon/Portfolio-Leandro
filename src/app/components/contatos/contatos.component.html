@@ -24,11 +24,14 @@
         </div>
         <div class="mt-5 text-start">
             <label for="imensagem" class="form-label">Mensagem</label>
-            <textarea name="" id="imensagem" formControlName="mensagem" class="form-control" placeholder="Me envie uma mensagem descrevendo o que você precisa. Pode ser um projeto que deseja desenvolver, uma dúvida técnica ou até uma ideia que gostaria de discutir. Estou sempre disposto a ajudar e aberto a novas oportunidades." autocomplete="off"></textarea>
+            <textarea name="" id="imensagem" formControlName="mensagem" class="form-control" placeholder="Me envie uma mensagem descrevendo o que você precisa. Pode ser um projeto que deseja desenvolver, uma dúvida técnica ou até uma ideia que gostaria de discutir. Estou aqui para ajudar e aberto a novas oportunidades." autocomplete="off"></textarea>
             @if (contatoForm.controls['mensagem'].touched && contatoForm.controls['mensagem'].errors?.['required']) {
                 <p class="alerta mt-3">O campo mensagem não pode estar vazio!</p>
             }
         </div>
-        <button (click)="enviarWhatsapp()" class="botao-vermelho btn mt-5" [disabled]="!contatoForm.valid">Enviar</button>
+        <div>
+            <button (click)="enviarEmail()" class="botao-vermelho btn mt-5" [disabled]="!contatoForm.valid">Enviar Email</button>
+            <button (click)="enviarWhatsapp()" class="botao-vermelho btn mt-5" [disabled]="!contatoForm.valid">Enviar Whatsapp</button>
+        </div>
     </form>
 </section>
