@@ -11,9 +11,9 @@
 }
 
 .meu-nome {
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2.4em;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .letra-dev {

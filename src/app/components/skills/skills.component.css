@@ -17,22 +17,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.for-container {
-    width: 200px;
-}
-
 .icon-container {
     font-size: 1.5em;
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid white;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.5s ease;
 }
 
 .icon-container:hover {
-    transform: translateY(-5px) scale(1.1);;
     background: rgba(255, 255, 255, 0.3);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    transform: scale(1.1);
 }
 
 i {

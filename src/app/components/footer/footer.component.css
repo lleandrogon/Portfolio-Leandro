@@ -1,5 +1,6 @@
 .rodape {
     background: linear-gradient(130deg, #000000, #252525);
+    overflow-x: hidden;
 }
 
 .redes-sociais {
