@@ -41,6 +41,35 @@ export class ProjetosComponent {
       github: 'https://github.com/lleandrogon/PowerFit'
     },
     {
+      logo: 'https://png.pngtree.com/png-vector/20241009/ourmid/pngtree-black-and-yellow-sound-icon-png-image_14028321.png',
+      nome: 'FlowMusic',
+      descricao: 'Página para uma loja de música com o objetivo da venda de instrumentos musicais, caixas de som e acessórios.',
+      tecnologias: [
+          {
+            icon: "devicon-angularjs-plain fs-4",
+            nome: "Angular"
+          },
+          {
+            icon: "devicon-typescript-plain fs-4",
+            nome: "TypeScript"
+          },
+          {
+            icon: "devicon-bootstrap-plain fs-3",
+            nome: "Bootstrap"
+          },
+          {
+            icon: "devicon-css3-plain fs-4",
+            nome: "CSS"
+          },
+          {
+            icon: "devicon-html5-plain fs-4",
+            nome: "HTML"
+          },
+      ],
+      link: 'https://flow-music-blush.vercel.app/',
+      github: 'https://github.com/lleandrogon/FlowMusic'
+    },
+    {
       logo: 'https://cdn-icons-png.flaticon.com/512/8298/8298837.png',
       nome: 'Dentista',
       descricao: 'Site para uma clínica odontológica para o oferecimento de serviços com navegação interativa e agendamento de consultas.',
