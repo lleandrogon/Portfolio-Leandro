@@ -67,7 +67,36 @@ export class ProjetosComponent {
           },
       ],
       link: 'https://flow-music-blush.vercel.app/',
-      github: 'https://github.com/lleandrogon/FlowMusic'
+      github: 'https://github.com/lleandrogon/FlowMusic',
+    },
+    {
+      logo: 'https://www.shareicon.net/data/2016/10/20/846390_letter_512x512.png',
+      nome: 'Altitude-Grafica',
+      descricao: 'Página para a empresa Altitude Gráfica de Maceió, com foco na venda de serviços, produtos gráficos e comunicação visual.',
+      tecnologias: [
+        {
+          icon: "devicon-angularjs-plain fs-4",
+          nome: "Angular"
+        },
+        {
+          icon: "devicon-typescript-plain fs-4",
+          nome: "TypeScript"
+        },
+        {
+          icon: "devicon-bootstrap-plain fs-3",
+          nome: "Bootstrap"
+        },
+        {
+          icon: "devicon-css3-plain fs-4",
+          nome: "CSS"
+        },
+        {
+          icon: "devicon-html5-plain fs-4",
+          nome: "HTML"
+        },
+      ],
+      link: 'https://altitude-grafica.netlify.app/',
+      github: 'https://github.com/lleandrogon/Altitude-Grafica'
     },
     {
       logo: 'https://cdn-icons-png.flaticon.com/512/8298/8298837.png',
