@@ -19,16 +19,24 @@ export class SkillsComponent {
       nome: "TypeScript"
     },
     {
-      icon: "devicon-javascript-plain",
-      nome: "JavaScript"
+      icon: "devicon-vuejs-plain fs-3",
+      nome: "Vue"
     },
     {
       icon: "devicon-jquery-plain",
       nome: "JQuery"
     },
     {
+      icon: "devicon-javascript-plain",
+      nome: "JavaScript"
+    },
+    {
       icon: "devicon-php-plain fs-1",
       nome: "PHP"
+    },
+    {
+      icon: "devicon-mysql-plain fs-3",
+      nome: "MySQL"
     },
     {
       icon: "devicon-bootstrap-plain fs-2",
