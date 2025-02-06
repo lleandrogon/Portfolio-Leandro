@@ -99,6 +99,35 @@ export class ProjetosComponent {
       github: 'https://github.com/lleandrogon/Altitude-Grafica'
     },
     {
+      logo: 'https://images.vexels.com/media/users/3/142662/isolated/preview/147faa70f705783a00dc8d23d64afcb0-isotipo-de-origami-de-letra-f.png',
+      nome: 'Fala-Facil',
+      descricao: 'Pagina para uma escola de idiomas com o objetivo de convencer o visitante do site a se matricular para aprender um idioma novo.',
+      tecnologias: [
+        {
+          icon: "devicon-vuejs-plain fs-3",
+          nome: "Vue"
+        },
+        {
+          icon: "devicon-javascript-plain fs-4",
+          nome: "JavaScript"
+        },
+        {
+          icon: "devicon-bootstrap-plain fs-3",
+          nome: "Bootstrap"
+        },
+        {
+          icon: "devicon-css3-plain fs-4",
+          nome: "CSS"
+        },
+        {
+          icon: "devicon-html5-plain fs-4",
+          nome: "HTML"
+        },
+      ],
+      link: "https://fala-facil-three.vercel.app/",
+      github: "https://github.com/lleandrogon/Fala-Facil"
+    },
+    {
       logo: 'https://cdn-icons-png.flaticon.com/512/8298/8298837.png',
       nome: 'Dentista',
       descricao: 'Site para uma clínica odontológica para o oferecimento de serviços com navegação interativa e agendamento de consultas.',
