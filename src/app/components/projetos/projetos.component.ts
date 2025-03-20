@@ -12,6 +12,43 @@ import { Tecnologia } from '../../models/tecnologia';
 export class ProjetosComponent {
   projetos: Projeto[] = [
     {
+      logo: 'https://cdn-icons-png.flaticon.com/256/4645/4645237.png',
+      nome: 'Colégio Modelo',
+      descricao: 'Site para uma escola com várias formas de contatar, incluindo matriculas sendo armazenadas em banco de dados.',
+      tecnologias: [
+        {
+          icon: "devicon-php-plain fs-1",
+          nome: "PHP"
+        },
+        {
+          icon: "devicon-mysql-plain fs-3",
+          nome: "MySQL"
+        },
+        {
+          icon: "devicon-vuejs-plain fs-3",
+          nome: "Vue"
+        },
+        {
+          icon: "devicon-javascript-plain fs-4",
+          nome: "JavaScript"
+        },
+        {
+          icon: "devicon-bootstrap-plain fs-3",
+          nome: "Bootstrap"
+        },
+        {
+          icon: "devicon-css3-plain fs-4",
+          nome: "CSS"
+        },
+        {
+          icon: "devicon-html5-plain fs-4",
+          nome: "HTML"
+        },
+      ],
+      link: '/aviso',
+      github: 'https://github.com/lleandrogon/Colegio-Modelo'
+    },
+    {
       logo: 'https://static.vecteezy.com/system/resources/thumbnails/013/146/831/small_2x/body-builder-lifting-a-dumbbell-png.png',
       nome: 'PowerFit',
       descricao: 'Sistema para uma academia com planos, formulários, servindo tanto pra equipe administrativa quanto pro cliente.',
@@ -39,6 +76,39 @@ export class ProjetosComponent {
       ],
       link: 'https://power-fit-kohl.vercel.app/',
       github: 'https://github.com/lleandrogon/PowerFit'
+    },
+    {
+      logo: 'https://cdn-icons-png.flaticon.com/512/3359/3359081.png',
+      nome: 'CRUD-Odonto',
+      descricao: 'Gestão de pacientes de uma clínica odontológica com uma linha do tempo com pontos vermelhos para pacientes inativos e verdes se ativos.',
+      tecnologias: [
+        {
+          icon: "devicon-php-plain fs-1",
+          nome: "PHP"
+        },
+        {
+          icon: "devicon-mysql-plain fs-3",
+          nome: "MySQL"
+        },
+        {
+          icon: "devicon-javascript-plain fs-4",
+          nome: "JavaScript"
+        },
+        {
+          icon: "devicon-bootstrap-plain fs-2",
+          nome: "Bootstrap"
+        },
+        {
+          icon: "devicon-css3-plain fs-4",
+          nome: "CSS"
+        },
+        {
+          icon: "devicon-html5-plain fs-4",
+          nome: "HTML"
+        },
+      ],
+      link: '/aviso',
+      github: 'https://github.com/lleandrogon/CRUD-Odonto'
     },
     {
       logo: 'https://png.pngtree.com/png-vector/20241009/ourmid/pngtree-black-and-yellow-sound-icon-png-image_14028321.png',

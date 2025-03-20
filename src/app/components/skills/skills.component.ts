@@ -11,6 +11,18 @@ import { Tecnologia } from '../../models/tecnologia';
 export class SkillsComponent {
   tecnologias: Tecnologia[] = [
     {
+      icon: "fa-brands fa-laravel fs-2",
+      nome: "Laravel"
+    },
+    {
+      icon: "devicon-php-plain fs-1",
+      nome: "PHP"
+    },
+    {
+      icon: "devicon-mysql-plain fs-3",
+      nome: "MySQL"
+    },
+    {
       icon: "devicon-angularjs-plain fs-3",
       nome: "Angular"
     },
@@ -29,14 +41,6 @@ export class SkillsComponent {
     {
       icon: "devicon-javascript-plain",
       nome: "JavaScript"
-    },
-    {
-      icon: "devicon-php-plain fs-1",
-      nome: "PHP"
-    },
-    {
-      icon: "devicon-mysql-plain fs-3",
-      nome: "MySQL"
     },
     {
       icon: "devicon-bootstrap-plain fs-2",
